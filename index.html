@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/assets/faviconConvocatoria.png" type="image/x-icon">
+  <script src="script.js"></script>
+  <title>Innovation for Water Sustainable Water</title>
+</head>
+<body>
+  <header>
+    <div class="headerDiv">
+      <img src="/assets/img/logoConvocatoriaBlanco.png" alt="">
+      <button onclick="toTranslate('e')" id="buttonToTranslateToEnglish">To English</button>
+      <button onclick="toTranslate('s')" id="buttonToTranslateToSpanish" style="display: none;">A Español</button>
+    </div>
+    <div>
+    </div>
+  </header>
+  <main>
+    <section class="sectionTitle">
+      <div class="sectionTitleDiv">
+        <h1 id="spanishTitle">¡Únete a nuestra misión de hacer del mundo un lugar más sustentable para todos!</h1>
+        <h1 id="englishTitle" style="display: none;">Join our mission to make the world a more sustainable place for everyone!</h1>
+      </div>
+    </section>
+    <section class="sectionExplanation">
+      <div class="sectionExplanationDivLogo">
+        <img src="/assets/img/logoConvocatoriaColores.png" alt="">
+      </div>
+      <div class="sectionExplanationDivText" id="explanationSpanish">
+        <p>Buscamos emprendedores, startups, empresas, organizaciones de la sociedad civil, instituciones educativas, centros de investigación y desarrollo, docentes, investigadores, estudiantes y demás organizaciones del ecosistema de innovación en la región binacional CaliBaja con soluciones tecnológicas sostenibles y asequibles que aborden el acceso al agua limpia y saneamiento. </p>
+        <p>¿Tienes una solución en TRL 6 o superior? ¡Participa y recibe retroalimentación del Comité Evaluador! Además, Rotoplas podría explorar posibles formas de colaboración para el desarrollo e implementación de la tecnología.</p>
+      </div>
+      <div class="sectionExplanationDivText" id="explanationEnglish" style="display: none;">
+        <p>We are looking for entrepreneurs, startups, companies, civil society organizations, educational institutions, research and development centers, teachers, researchers, students, and other innovation ecosystem organizations in the CaliBaja binational region with sustainable and affordable technological solutions that address access to clean water and sanitation.</p>
+        <p>Do you have a solution at TRL 6 or higher? Participate and receive feedback from the Evaluation Committee! In addition, Rotoplas could explore possible forms of collaboration for the development and implementation of the technology.</p>
+      </div>
+      <div class="sectionExplanationDivButton">
+        <button onclick="scrollToSectionRegister()" id="buttonPitchSpanish">
+          COMPÁRTENOS TU PITCH
+        </button>
+        <button onclick="scrollToSectionRegister()" id="buttonPitchEnglish" style="display: none;">
+          SHARE YOUR PITCH
+        </button>
+      </div>
+    </section>
+    <section class="sectionChallenges">
+      <div class="sectionChallengesTitle" id="challengesTitleSpanish">
+        <h1>
+          LOS DESAFIOS
+        </h1>
+      </div>
+      <div class="sectionChallengesTitle" id="challengesTitleEnglish" style="display: none;">
+        <h1>
+          CHALLENGES
+        </h1>
+      </div>
+      <div class="sectionChallengesExplanation" id="challengesExplanationSpanish">
+        <div class="sectionChallengesExplanationChallenge1">
+          <h1>DESAFÍO 1</h1>
+          <p>
+            Propón un medio filtrante de bajo costo y sintetizado con reactivos seguros para una aplicación grado alimenticio que pueda utilizarse en un cartucho del sistema de purificación de Rotoplas y pueda incorporarse al tren de purificación de agua de ósmosis inversa. Este medio filtrante debe reducir la dureza del agua al retener las sales presentes.
+          </p>
+          <button>
+            MÁS DETALLES
+          </button>
+        </div>
+        <div class="sectionChallengesExplanationChallenge2">
+          <h1>DESAFÍO 2</h1>
+          <p>
+            Haz una propuesta para sistemas de tratamiento y reuso de aguas residuales domésticas que cumplan con la NOM-006-CONAGUA-2022, tengan una capacidad de hasta 2m3 de agua al día, y ocupen el menor espacio físico posible. También puedes proponer tecnologías o elementos que se puedan incorporar a cualquiera de las tres etapas del sistema para mejorar su rendimiento.
+          </p>
+          <button>
+            MÁS DETALLES
+          </button>
+        </div>
+      </div>
+      <div class="sectionChallengesExplanation" style="display: none;" id="challengesExplanationEnglish">
+        <div class="sectionChallengesExplanationChallenge1">
+          <h1>CHALLENGE 1</h1>
+          <p>
+            Propose a low-cost filtering medium synthesized with safe reagents for a food-grade application that can be used in a Rotoplas purification system cartridge and incorporated into the reverse osmosis water purification train. This filtering medium should reduce water hardness by retaining present salts.
+          </p>
+          <button>
+            MORE INFO
+          </button>
+        </div>
+        <div class="sectionChallengesExplanationChallenge2">
+          <h1>CHALLENGE 2</h1>
+          <p>
+            Make a proposal for treatment and reuse systems for domestic wastewater that comply with NOM-006-CONAGUA-2022, have a capacity of up to 2m3 of water per day, and occupy the least physical space possible. You can also propose technologies or elements that can be incorporated into any of the three stages of the system to improve its performance.
+          </p>
+          <button>
+            MORE INFO
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="sectionRegister" id="sectionRegister">
+      <div class="sectionRegisterTitle" id="registerSpanish">
+        <div>
+          <h1>¡PARTICIPA!</h1>
+        </div>
+        <div class="sectionRegisterButton">
+          <button>CONSULTA LAS BASES</button>
+        </div>
+        <div class="sectionRegisterGoogleForms">
+          <h1>Google Forms</h1>
+        </div>
+      </div>
+      <div class="sectionRegisterTitle" id="registerEnglish" style="display: none;">
+        <div>
+          <h1>APPLY!</h1>
+        </div>
+        <div class="sectionRegisterButton">
+          <button>CHECK THE RULES</button>
+        </div>
+        <div class="sectionRegisterGoogleForms">
+          <h1>Google Forms</h1>
+        </div>
+      </div>
+    </section>
+    <section class="sectionLogos">
+      <div class="sectionLogosTitle" id="titleOrganizersSpanish">
+        <h1>ORGANIZADORES</h1>
+      </div>
+      <div class="sectionLogosTitle" id="titleOrganizersEnglish" style="display: none;">
+        <h1>ORGANIZERS</h1>
+      </div>
+      <div class="sectionLogosImages">
+        <img src="assets/img/innwai.png" alt="">
+        <img src="assets/img/rotoplas.png" alt="">
+        <img src="assets/img/bajainnova.png" alt="">
+        <img src="assets/img/ices.png" alt="">
+        <img src="assets/img/cdt.png" alt="">
+      </div>
+    </section>
+  </main>
+</body>
+</html>

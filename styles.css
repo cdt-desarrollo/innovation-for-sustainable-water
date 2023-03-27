@@ -1,0 +1,214 @@
+*{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* p{
+  padding: 50px;
+} */
+
+/* Header */
+.headerDiv{
+  background-color: #18B8EC;
+  padding: 20px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky
+}
+.headerDiv>img{
+  height: 80px;
+}
+.headerDiv>button{
+  background-color: white;
+  color: #09506D;
+  outline: 1px solid #09506D;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.headerDiv>button:hover{
+  background-color: #09506D;
+  color: white;
+}
+
+/* Section Title */
+.sectionTitleDiv{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #09506D;
+  height: 200px;
+  align-content: center;
+  justify-content: center;
+}
+.sectionTitleDiv>h1{
+  font-size: 29px;
+  width: 500px;
+  text-align: center;
+  color: white;
+}
+
+/* Section Explanation */
+.sectionExplanationDivLogo{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.sectionExplanationDivLogo>img{
+  height: 130px;
+}
+.sectionExplanationDivText{
+  display: flex;
+  gap: 50px;
+  align-content: center;
+  justify-content: center;
+}
+.sectionExplanationDivText>p{
+  width: 400px;
+  text-align: justify;
+}
+.sectionExplanationDivButton{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sectionExplanationDivButton>button{
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  border-color: none;
+  color: white;
+  background-color: #18B8EC;
+  border: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.sectionExplanationDivButton>button:hover{
+  background-color: white;
+  color: #09506D;
+  outline: 1px solid #09506D;
+}
+
+/* Section Challenges */
+.sectionChallenges{
+  background-color: #09506D;
+  padding-bottom: 40px;
+}
+.sectionChallengesTitle{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+.sectionChallengesExplanation{
+  display: flex;
+  gap:20px;
+  align-content: center;
+  justify-content: center;
+}
+.sectionChallengesExplanation>div>p{
+  display: flex;
+  width: 400px;
+  text-align: justify;
+  align-items: center;
+}
+.sectionChallengesExplanationChallenge1{
+  display: flex;
+  flex-direction: column;
+  background-color: #BFF1FF;
+  border-radius: 10px;
+  width: 500px;
+  align-items: center;
+}
+.sectionChallengesExplanationChallenge2{
+  display: flex;
+  flex-direction: column;
+  background-color: #8FE7FF;
+  border-radius: 10px;
+  width: 500px;
+  align-items: center;
+}
+.sectionChallengesExplanationChallenge1>h1, .sectionChallengesExplanationChallenge2>h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.sectionChallengesExplanationChallenge1>p, .sectionChallengesExplanationChallenge2>p{
+  height: 250px;
+}
+.sectionChallengesExplanationChallenge1>button, .sectionChallengesExplanationChallenge2>button{
+  border: none;
+  outline: 1px solid #09506D;
+  border-radius: 10px;
+  color: #09506D;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding:20px;
+  width: 200px;
+  transition: 0.6s;
+}
+.sectionChallengesExplanationChallenge1>button:hover, .sectionChallengesExplanationChallenge2>button:hover{
+  background-color: #09506D;
+  color: white;
+}
+
+/* Section Register */
+.sectionRegisterTitle{
+  padding-top: 80px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionRegisterButton>button{
+  border: none;
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  color: #18B8EC;
+  outline: 1px solid #18B8EC;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.sectionRegisterButton>button:hover{
+  background-color: #18B8EC;
+  color: white;
+}
+.sectionRegisterGoogleForms{
+  height: 100px;
+  background-color: blueviolet;
+  text-align: center;
+  justify-items: center;
+  border: none
+}
+
+/* SectionLogos */
+.sectionLogos{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionLogosImages{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+.sectionLogosImages>img{
+  height: 40px;
+}
