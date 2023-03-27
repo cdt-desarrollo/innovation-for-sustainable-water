@@ -212,3 +212,30 @@ html{
 .sectionLogosImages>img{
   height: 40px;
 }
+
+@media only screen and (max-width: 1070px) {
+  .sectionExplanationDivText{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionChallengesExplanation{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionLogosImages>img{
+    height: 25px;
+  }
+}
+@media only screen and (max-width: 720px){
+  .sectionLogosImages>img{
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .sectionLogosImages{
+    height: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
