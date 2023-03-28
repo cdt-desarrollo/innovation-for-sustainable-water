@@ -5,6 +5,9 @@
 html{
   scroll-behavior: smooth;
 }
+button{
+  box-shadow: 4px 4px;
+}
 /* p{
   padding: 50px;
 } */
@@ -33,7 +36,7 @@ html{
   cursor: pointer;
   transition: 0.4s;
 }
-.headerDiv>button:hover{
+.headerDiv>button:focus{
   background-color: #09506D;
   color: white;
 }
