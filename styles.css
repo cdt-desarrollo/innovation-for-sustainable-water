@@ -236,9 +236,38 @@ button{
 }
 
 @media only screen and (max-width: 640px){
+  .headerDiv>img{
+    height: 40px;
+  }
+  .headerDiv>button{
+    height: 30px;
+    width: 100px;
+  }
+  .sectionExplanationDivText>p {
+    width: 300px;
+  }
+  .sectionExplanationDivButton>button{
+    width: 200px;
+  }
+  .sectionChallengesExplanationChallenge1, .sectionChallengesExplanationChallenge2{
+    width: 300px;
+  }
+  .sectionChallengesExplanation>div>p{
+    width: 200px;
+    font-size: small;
+  }
+  .sectionRegisterButton>button{
+    width: 200px;
+  }
   .sectionLogosImages{
     height: 40px;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .sectionTitleDiv>h1{
+    font-size: 20px;
+  }
+  .sectionExplanationDivLogo>img{
+    height: 60px;
   }
 }
