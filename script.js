@@ -41,3 +41,27 @@ function scrollToSectionRegister(){
   const element = document.getElementById("sectionRegister");
   element.scrollIntoView();
 }
+
+function moreInfoChallenge1Spanish(){
+  Swal.fire('Explicacion Español Desafío 1')
+}
+
+function moreInfoChallenge2Spanish(){
+  Swal.fire('Explicacion Español Desafío 2')
+}
+
+function moreInfoChallenge1English(){
+  Swal.fire('Explanation English Challenge 1')
+}
+
+function moreInfoChallenge2English(){
+  Swal.fire('Explanation English Challenge 2')
+}
+
+function checkTheRulesSpanish(){
+  Swal.fire('Documento con las reglas')
+}
+
+function checkTheRulesEnglish(){
+  Swal.fire('Document with the rules')
+}
