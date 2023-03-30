@@ -1,3 +1,7 @@
+var widthPopUp = 1200;
+var heightPopUp = 1700;
+var widthDocument = 1100;
+var heightDocument = 800;
 function toTranslate(language){
   if(language == "e"){
     document.getElementById("buttonToTranslateToSpanish").style.display = 'block'
@@ -6,8 +10,8 @@ function toTranslate(language){
     document.getElementById("englishTitle").style.display = 'block';
     document.getElementById("explanationSpanish").style.display = 'none';
     document.getElementById("explanationEnglish").style.display = 'flex'
-    document.getElementById("buttonPitchSpanish").style.display = 'none'
-    document.getElementById("buttonPitchEnglish").style.display = 'block'
+    // document.getElementById("buttonPitchSpanish").style.display = 'none'
+    // document.getElementById("buttonPitchEnglish").style.display = 'block'
     document.getElementById("challengesTitleSpanish").style.display = 'none'
     document.getElementById("challengesTitleEnglish").style.display = 'flex'
     document.getElementById("challengesExplanationSpanish").style.display = 'none'
@@ -24,8 +28,8 @@ function toTranslate(language){
     document.getElementById("englishTitle").style.display = 'none';
     document.getElementById("explanationSpanish").style.display = 'flex';
     document.getElementById("explanationEnglish").style.display = 'none'
-    document.getElementById("buttonPitchSpanish").style.display = 'block'
-    document.getElementById("buttonPitchEnglish").style.display = 'none'
+    // document.getElementById("buttonPitchSpanish").style.display = 'block'
+    // document.getElementById("buttonPitchEnglish").style.display = 'none'
     document.getElementById("challengesTitleSpanish").style.display = 'flex'
     document.getElementById("challengesTitleEnglish").style.display = 'none'
     document.getElementById("challengesExplanationSpanish").style.display = 'flex'
@@ -42,26 +46,38 @@ function scrollToSectionRegister(){
   element.scrollIntoView();
 }
 
-function moreInfoChallenge1Spanish(){
-  Swal.fire('Explicacion Español Desafío 1')
+function moreInfoChallengesSpanish(){
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/12D0YyZKCQ4kjX7VZ9wECCsoYq8iJ3KNs/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
 }
 
-function moreInfoChallenge2Spanish(){
-  Swal.fire('Explicacion Español Desafío 2')
-}
-
-function moreInfoChallenge1English(){
-  Swal.fire('Explanation English Challenge 1')
-}
-
-function moreInfoChallenge2English(){
-  Swal.fire('Explanation English Challenge 2')
+function moreInfoChallengesEnglish(){
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/193ESbnuHUuFRtDeCHZ7Lp-j9G1ABecnV/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
 }
 
 function checkTheRulesSpanish(){
-  Swal.fire('Documento con las reglas')
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/1LEOh8Pi5wvEjOcP2Z7P8UtRwGEJvK7cV/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
 }
 
 function checkTheRulesEnglish(){
-  Swal.fire('Document with the rules')
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/1V9ptWvxGYx5nFWfGkS1pyDIGwOFV8VE_/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
 }

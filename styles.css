@@ -186,9 +186,25 @@ button{
   cursor: pointer;
   transition: 0.6s;
 }
+.sectionRegisterButton>a>button{
+  border: none;
+  width: 700px;
+  border-radius: 10px;
+  background-color: #09506D;
+  color: white;
+  /* outline: 1px solid #18B8EC; */
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.6s;
+}
 .sectionRegisterButton>button:hover{
   background-color: #18B8EC;
   color: white;
+}
+.sectionRegisterButton>a>button:hover{
+  background-color: white;
+  color: #09506D;
+  outline: 1px solid #09506D;
 }
 .sectionRegisterGoogleForms{
   height: 100px;
@@ -200,7 +216,7 @@ button{
 
 /* SectionLogos */
 .sectionLogos{
-  padding-top: 100px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,6 +232,36 @@ button{
   height: 70px;
 }
 
+@media only screen and (max-width: 1750px) {
+  .sectionLogosImages>img{
+    height: 60px;
+  }
+  .swal2-html-container{
+    height: 2000px;
+  }
+  .swal2-html-container>iframe{
+    width: 1850px;
+    height: 2000px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .sectionLogosImages>img{
+    height: 50px;
+  }
+
+  .swal2-html-container{
+    height: 700px;
+  }
+  .swal2-html-container>iframe{
+    width: 750px;
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .sectionLogosImages>img{
+    height: 40px;
+  }
+}
 @media only screen and (max-width: 1070px) {
   .sectionExplanationDivText{
     flex-direction: column;
@@ -229,13 +275,19 @@ button{
     height: 25px;
   }
 }
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 770px){
   .sectionLogosImages>img{
     height: 20px;
   }
+  .swal2-html-container{
+    height: 700px;
+  }
+  .swal2-html-container>iframe{
+    width: 650px;
+    height: 700px;
+  }
 }
-
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 750px){
   .headerDiv>img{
     height: 40px;
   }
@@ -259,6 +311,9 @@ button{
   .sectionRegisterButton>button{
     width: 200px;
   }
+  .sectionRegisterButton>a>button{
+    width: 300px;
+  }
   .sectionLogosImages{
     height: 40px;
     flex-wrap: wrap;
@@ -271,3 +326,13 @@ button{
     height: 60px;
   }
 }
+@media only screen and (max-width: 375px){
+  .swal2-html-container{
+    height: 700px;
+  }
+  .swal2-html-container>iframe{
+    width: 250px;
+    height: 700px;
+  }
+}
+
