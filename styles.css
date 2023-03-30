@@ -227,14 +227,27 @@ button{
   flex-direction: row;
   gap: 40px;
   padding-bottom: 60px;
+  align-items: center;
 }
-.sectionLogosImages>img{
+/* .sectionLogosImages>img{
   height: 70px;
-}
+} */
 
-@media only screen and (max-width: 1750px) {
-  .sectionLogosImages>img{
+
+@media only screen and (min-width: 1751px){
+  .logoNormal{
     height: 60px;
+  }
+  .logoDifferent{
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 1750px) {
+  .logoNormal{
+    height: 60px;
+  }
+  .logoDifferent{
+    height: 100px;
   }
   .swal2-html-container{
     height: 2000px;
@@ -244,11 +257,21 @@ button{
     height: 2000px;
   }
 }
-@media only screen and (max-width: 1500px) {
-  .sectionLogosImages>img{
+@media only screen and (max-width: 1580px){
+  .logoNormal{
     height: 50px;
   }
-
+  .logoDifferent{
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .logoNormal{
+    height: 50px;
+  }
+  .logoDifferent{
+    height: 90px;
+  }
   .swal2-html-container{
     height: 700px;
   }
@@ -257,9 +280,25 @@ button{
     height: 700px;
   }
 }
-@media only screen and (max-width: 1300px) {
-  .sectionLogosImages>img{
+@media only screen and (max-width: 1360px){
+  .logoNormal{
     height: 40px;
+  }
+  .logoDifferent{
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  /* .sectionLogosImages>img{
+    height: 40px;
+  } */
+}
+@media only screen and (max-width: 1150px){
+  .logoNormal{
+    height: 30px;
+  }
+  .logoDifferent{
+    height: 70px;
   }
 }
 @media only screen and (max-width: 1070px) {
@@ -271,8 +310,19 @@ button{
     flex-direction: column;
     align-items: center;
   }
-  .sectionLogosImages>img{
-    height: 25px;
+  .logoNormal{
+    height: 30px;
+  }
+  .logoDifferent{
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .logoNormal{
+    height: 20px;
+  }
+  .logoDifferent{
+    height: 60px;
   }
 }
 @media only screen and (max-width: 770px){
