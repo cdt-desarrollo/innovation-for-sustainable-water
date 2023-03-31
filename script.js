@@ -46,27 +46,41 @@ function scrollToSectionRegister(){
   element.scrollIntoView();
 }
 
-function moreInfoChallengesSpanish(){
+function moreInfoChallengesSpanish1(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/12D0YyZKCQ4kjX7VZ9wECCsoYq8iJ3KNs/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1TqP6cZsZIopKPJ1W_qmEB1rU8JjYbHb3/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
   })
 }
-
-function moreInfoChallengesEnglish(){
+function moreInfoChallengesSpanish2(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/193ESbnuHUuFRtDeCHZ7Lp-j9G1ABecnV/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/17Q1AvP0D-5pLbDd1wGXhXstW1_hbK-IA/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
   })
 }
-
+function moreInfoChallengesEnglish1(){
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/1AOiT0332bnIvHtTushr3HT6uxBjCx7Cu/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
+}
+function moreInfoChallengesEnglish2(){
+  Swal.fire({
+    html: `<iframe src="https://drive.google.com/file/d/1lUF49QQBWi-f4ewyimW-Py_TJRliOTz6/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    width: `${widthPopUp}px`,
+    height: `${heightPopUp}px`,
+    imageAlt: 'A tall image'
+  })
+}
 function checkTheRulesSpanish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1LEOh8Pi5wvEjOcP2Z7P8UtRwGEJvK7cV/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1jZh6WWAKFzbnRjyUPumCsfBMANCXVlqJ/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -75,7 +89,7 @@ function checkTheRulesSpanish(){
 
 function checkTheRulesEnglish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1V9ptWvxGYx5nFWfGkS1pyDIGwOFV8VE_/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1S9hlV8lvk25_0ERURjUtJl7I7eje6caN/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
