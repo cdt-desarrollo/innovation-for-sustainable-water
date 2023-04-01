@@ -86,7 +86,6 @@ function checkTheRulesSpanish(){
     imageAlt: 'A tall image'
   })
 }
-
 function checkTheRulesEnglish(){
   Swal.fire({
     html: `<iframe src="https://drive.google.com/file/d/14nfD7JDPKwt5_Urq8MqR9kMiMlN-81OL/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,

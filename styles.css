@@ -248,10 +248,10 @@ button{
     height: 100px;
   }
   .swal2-html-container{
-    height: 2000px;
+    height: 700px;
   }
   .swal2-html-container>iframe{
-    width: 1850px;
+    width: 750px;
     height: 2000px;
   }
 }
