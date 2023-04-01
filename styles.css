@@ -8,9 +8,7 @@ html{
 button{
   box-shadow: 4px 4px #09506D;
 }
-/* p{
-  padding: 50px;
-} */
+
 
 /* Header */
 .headerDiv{
@@ -236,7 +234,7 @@ button{
 
 @media only screen and (min-width: 1751px){
   .logoNormal{
-    height: 60px;
+    height: 55px;
   }
   .logoDifferent{
     height: 100px;
@@ -244,7 +242,7 @@ button{
 }
 @media only screen and (max-width: 1750px) {
   .logoNormal{
-    height: 60px;
+    height: 50px;
   }
   .logoDifferent{
     height: 100px;
@@ -257,20 +255,20 @@ button{
     height: 2000px;
   }
 }
-@media only screen and (max-width: 1580px){
+/* @media only screen and (max-width: 1580px){
   .logoNormal{
     height: 50px;
   }
   .logoDifferent{
     height: 90px;
   }
-}
-@media only screen and (max-width: 1500px) {
+} */
+@media only screen and (max-width: 1530px) {
   .logoNormal{
-    height: 50px;
+    height: 40px;
   }
   .logoDifferent{
-    height: 90px;
+    height: 80px;
   }
   .swal2-html-container{
     height: 700px;
@@ -280,20 +278,20 @@ button{
     height: 700px;
   }
 }
-@media only screen and (max-width: 1360px){
+/* @media only screen and (max-width: 1360px){
   .logoNormal{
     height: 40px;
   }
   .logoDifferent{
     height: 80px;
   }
-}
-@media only screen and (max-width: 1300px) {
-  /* .sectionLogosImages>img{
+} */
+/* @media only screen and (max-width: 1300px) {
+  .sectionLogosImages>img{
     height: 40px;
-  } */
-}
-@media only screen and (max-width: 1150px){
+  }
+} */
+@media only screen and (max-width: 1260px){
   .logoNormal{
     height: 30px;
   }
@@ -312,6 +310,14 @@ button{
   }
   .logoNormal{
     height: 30px;
+  }
+  .logoDifferent{
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 990px){
+  .logoNormal{
+    height: 20px;
   }
   .logoDifferent{
     height: 60px;

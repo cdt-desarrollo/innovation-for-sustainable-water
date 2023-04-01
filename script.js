@@ -48,7 +48,7 @@ function scrollToSectionRegister(){
 
 function moreInfoChallengesSpanish1(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1TqP6cZsZIopKPJ1W_qmEB1rU8JjYbHb3/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1GJicYTOV2eXi7g941Syxt28b0vNsBr1S/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -56,7 +56,7 @@ function moreInfoChallengesSpanish1(){
 }
 function moreInfoChallengesSpanish2(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/17Q1AvP0D-5pLbDd1wGXhXstW1_hbK-IA/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1MsldVQawF4heIZv1z9vlPypwIcMkmDiy/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -64,7 +64,7 @@ function moreInfoChallengesSpanish2(){
 }
 function moreInfoChallengesEnglish1(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1AOiT0332bnIvHtTushr3HT6uxBjCx7Cu/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1R9cuQmrC0ns-QOeYXdgmSdYFLAi4wzCq/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -72,7 +72,7 @@ function moreInfoChallengesEnglish1(){
 }
 function moreInfoChallengesEnglish2(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1lUF49QQBWi-f4ewyimW-Py_TJRliOTz6/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1eLZeP4tws05t_tooXDP7v5gPpbz8FV1f/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -80,7 +80,7 @@ function moreInfoChallengesEnglish2(){
 }
 function checkTheRulesSpanish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1jZh6WWAKFzbnRjyUPumCsfBMANCXVlqJ/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1t5QT9XO9JgW6CVEjuAUs5-dM6m6mV3uR/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -89,7 +89,7 @@ function checkTheRulesSpanish(){
 
 function checkTheRulesEnglish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1S9hlV8lvk25_0ERURjUtJl7I7eje6caN/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/14nfD7JDPKwt5_Urq8MqR9kMiMlN-81OL/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
