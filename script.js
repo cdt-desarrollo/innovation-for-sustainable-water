@@ -80,7 +80,7 @@ function moreInfoChallengesEnglish2(){
 }
 function checkTheRulesSpanish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/1t5QT9XO9JgW6CVEjuAUs5-dM6m6mV3uR/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/14thip143yFIT8FyM7jwT8O9Va0v7clo2/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
@@ -88,7 +88,7 @@ function checkTheRulesSpanish(){
 }
 function checkTheRulesEnglish(){
   Swal.fire({
-    html: `<iframe src="https://drive.google.com/file/d/14nfD7JDPKwt5_Urq8MqR9kMiMlN-81OL/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
+    html: `<iframe src="https://drive.google.com/file/d/1Sgr6ixEeTGnGOudL6ZNkwPta8Ditraf9/preview" width="${widthDocument}" height="${heightDocument}" allow="autoplay"></iframe>`,
     width: `${widthPopUp}px`,
     height: `${heightPopUp}px`,
     imageAlt: 'A tall image'
